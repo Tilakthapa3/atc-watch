@@ -1,14 +1,14 @@
 {
   "counts": {
-    "advisories": 3,
+    "advisories": 1,
     "delayed_airports": 0,
     "findings": 0
   },
   "delayed_airports": [],
-  "feed_updated": "Sat Nov 14 20:13:00 2026 GMT",
+  "feed_updated": "Sat Nov 14 22:40:34 2026 GMT",
   "findings": [],
-  "generated_at_ct": "2026-11-14T14:13:49.989766-06:00",
-  "generated_at_utc": "2026-11-14T20:13:49Z",
+  "generated_at_ct": "2026-11-14T16:41:03.783320-06:00",
+  "generated_at_utc": "2026-11-14T22:41:03Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
