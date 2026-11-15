@@ -1,14 +1,26 @@
 {
   "counts": {
-    "advisories": 2,
-    "delayed_airports": 0,
-    "findings": 0
+    "advisories": 4,
+    "delayed_airports": 5,
+    "findings": 1
   },
-  "delayed_airports": [],
-  "feed_updated": "Sun Nov 15 09:30:08 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-15T03:30:38.736497-06:00",
-  "generated_at_utc": "2026-11-15T09:30:38Z",
+  "delayed_airports": [
+    "DJT",
+    "FLL",
+    "MIA",
+    "SAN",
+    "TEB"
+  ],
+  "feed_updated": "Sun Nov 15 16:36:45 2026 GMT",
+  "findings": [
+    {
+      "evidence": "delayed airports: DJT, FLL, MIA, SAN, TEB",
+      "rule": "multi_airport_delays",
+      "severity": "elevated"
+    }
+  ],
+  "generated_at_ct": "2026-11-15T10:37:33.806237-06:00",
+  "generated_at_utc": "2026-11-15T16:37:33Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -17,5 +29,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "WATCH"
 }
