@@ -1,38 +1,24 @@
 {
   "counts": {
-    "advisories": 6,
-    "delayed_airports": 7,
-    "findings": 3
+    "advisories": 5,
+    "delayed_airports": 3,
+    "findings": 1
   },
   "delayed_airports": [
-    "AUS",
-    "FMY",
-    "MCO",
-    "RSW",
-    "SAN",
+    "LAS",
     "SFO",
     "TEB"
   ],
-  "feed_updated": "Sun Nov 15 21:20:15 2026 GMT",
+  "feed_updated": "Mon Nov 16 01:19:34 2026 GMT",
   "findings": [
     {
-      "evidence": "Ground Stop Programs: MCO aircraft emergency",
-      "rule": "ground_stop_keyword",
-      "severity": "critical"
-    },
-    {
-      "evidence": "delayed airports: AUS, FMY, MCO, RSW, SAN, SFO, TEB",
+      "evidence": "delayed airports: LAS, SFO, TEB",
       "rule": "multi_airport_delays",
-      "severity": "elevated"
-    },
-    {
-      "evidence": "ARTCC centers mentioned: ZJX",
-      "rule": "center_named",
       "severity": "elevated"
     }
   ],
-  "generated_at_ct": "2026-11-15T15:20:34.359567-06:00",
-  "generated_at_utc": "2026-11-15T21:20:34Z",
+  "generated_at_ct": "2026-11-15T19:19:57.855759-06:00",
+  "generated_at_utc": "2026-11-16T01:19:57Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -41,5 +27,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "GROUND_STOP_PATTERN"
+  "verdict": "WATCH"
 }
