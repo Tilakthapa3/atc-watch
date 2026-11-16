@@ -1,24 +1,14 @@
 {
   "counts": {
-    "advisories": 5,
-    "delayed_airports": 3,
-    "findings": 1
+    "advisories": 2,
+    "delayed_airports": 0,
+    "findings": 0
   },
-  "delayed_airports": [
-    "LAS",
-    "SFO",
-    "TEB"
-  ],
-  "feed_updated": "Mon Nov 16 01:19:34 2026 GMT",
-  "findings": [
-    {
-      "evidence": "delayed airports: LAS, SFO, TEB",
-      "rule": "multi_airport_delays",
-      "severity": "elevated"
-    }
-  ],
-  "generated_at_ct": "2026-11-15T19:19:57.855759-06:00",
-  "generated_at_utc": "2026-11-16T01:19:57Z",
+  "delayed_airports": [],
+  "feed_updated": "Mon Nov 16 08:28:34 2026 GMT",
+  "findings": [],
+  "generated_at_ct": "2026-11-16T02:29:23.074742-06:00",
+  "generated_at_utc": "2026-11-16T08:29:23Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -27,5 +17,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "WATCH"
+  "verdict": "OK"
 }
