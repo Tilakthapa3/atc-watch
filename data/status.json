@@ -1,14 +1,22 @@
 {
   "counts": {
-    "advisories": 2,
-    "delayed_airports": 0,
-    "findings": 0
+    "advisories": 5,
+    "delayed_airports": 1,
+    "findings": 1
   },
-  "delayed_airports": [],
-  "feed_updated": "Tue Nov 17 11:00:15 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-17T05:00:34.032687-06:00",
-  "generated_at_utc": "2026-11-17T11:00:34Z",
+  "delayed_airports": [
+    "PHX"
+  ],
+  "feed_updated": "Tue Nov 17 19:52:50 2026 GMT",
+  "findings": [
+    {
+      "evidence": "Ground Stop Programs: TEB airport volume",
+      "rule": "ground_stop_keyword",
+      "severity": "critical"
+    }
+  ],
+  "generated_at_ct": "2026-11-17T13:52:59.362512-06:00",
+  "generated_at_utc": "2026-11-17T19:52:59Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -17,5 +25,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "GROUND_STOP_PATTERN"
 }
