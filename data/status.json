@@ -1,14 +1,29 @@
 {
   "counts": {
-    "advisories": 2,
-    "delayed_airports": 0,
-    "findings": 0
+    "advisories": 5,
+    "delayed_airports": 3,
+    "findings": 2
   },
-  "delayed_airports": [],
-  "feed_updated": "Wed Nov 18 10:34:36 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-18T04:35:14.100136-06:00",
-  "generated_at_utc": "2026-11-18T10:35:14Z",
+  "delayed_airports": [
+    "DJT",
+    "MIA",
+    "SFO"
+  ],
+  "feed_updated": "Wed Nov 18 19:06:42 2026 GMT",
+  "findings": [
+    {
+      "evidence": "Ground Stop Programs: SFO wind; DJT airport volume",
+      "rule": "ground_stop_keyword",
+      "severity": "critical"
+    },
+    {
+      "evidence": "delayed airports: DJT, MIA, SFO",
+      "rule": "multi_airport_delays",
+      "severity": "elevated"
+    }
+  ],
+  "generated_at_ct": "2026-11-18T13:07:10.171663-06:00",
+  "generated_at_utc": "2026-11-18T19:07:10Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -17,5 +32,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "GROUND_STOP_PATTERN"
 }
