@@ -1,23 +1,14 @@
 {
   "counts": {
-    "advisories": 5,
-    "delayed_airports": 2,
-    "findings": 1
+    "advisories": 2,
+    "delayed_airports": 0,
+    "findings": 0
   },
-  "delayed_airports": [
-    "LAS",
-    "SFO"
-  ],
-  "feed_updated": "Fri Nov 20 00:39:35 2026 GMT",
-  "findings": [
-    {
-      "evidence": "Ground Stop Programs: SAN low visibility",
-      "rule": "ground_stop_keyword",
-      "severity": "critical"
-    }
-  ],
-  "generated_at_ct": "2026-11-19T18:39:50.987261-06:00",
-  "generated_at_utc": "2026-11-20T00:39:50Z",
+  "delayed_airports": [],
+  "feed_updated": "Fri Nov 20 07:47:57 2026 GMT",
+  "findings": [],
+  "generated_at_ct": "2026-11-20T01:48:33.483437-06:00",
+  "generated_at_utc": "2026-11-20T07:48:33Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -26,5 +17,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "GROUND_STOP_PATTERN"
+  "verdict": "OK"
 }
