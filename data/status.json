@@ -1,14 +1,29 @@
 {
   "counts": {
-    "advisories": 2,
-    "delayed_airports": 0,
-    "findings": 0
+    "advisories": 4,
+    "delayed_airports": 3,
+    "findings": 2
   },
-  "delayed_airports": [],
-  "feed_updated": "Sun Nov 22 07:03:55 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-22T01:04:04.676388-06:00",
-  "generated_at_utc": "2026-11-22T07:04:04Z",
+  "delayed_airports": [
+    "ATL",
+    "MIA",
+    "SAN"
+  ],
+  "feed_updated": "Sun Nov 22 15:21:54 2026 GMT",
+  "findings": [
+    {
+      "evidence": "Ground Stop Programs: LGA low visibility",
+      "rule": "ground_stop_keyword",
+      "severity": "critical"
+    },
+    {
+      "evidence": "delayed airports: ATL, MIA, SAN",
+      "rule": "multi_airport_delays",
+      "severity": "elevated"
+    }
+  ],
+  "generated_at_ct": "2026-11-22T09:22:43.857157-06:00",
+  "generated_at_utc": "2026-11-22T15:22:43Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -17,5 +32,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "GROUND_STOP_PATTERN"
 }
