@@ -1,29 +1,23 @@
 {
   "counts": {
-    "advisories": 5,
-    "delayed_airports": 3,
-    "findings": 2
+    "advisories": 3,
+    "delayed_airports": 2,
+    "findings": 1
   },
   "delayed_airports": [
-    "FMY",
-    "MCO",
-    "RSW"
+    "FLL",
+    "MIA"
   ],
-  "feed_updated": "Sat Nov 21 19:49:00 2026 GMT",
+  "feed_updated": "Sun Nov 22 00:12:39 2026 GMT",
   "findings": [
     {
-      "evidence": "Ground Stop Programs: MIA thunderstorms",
+      "evidence": "Ground Stop Programs: YYZ low visibility",
       "rule": "ground_stop_keyword",
       "severity": "critical"
-    },
-    {
-      "evidence": "delayed airports: FMY, MCO, RSW",
-      "rule": "multi_airport_delays",
-      "severity": "elevated"
     }
   ],
-  "generated_at_ct": "2026-11-21T13:49:30.100741-06:00",
-  "generated_at_utc": "2026-11-21T19:49:30Z",
+  "generated_at_ct": "2026-11-21T18:12:48.334627-06:00",
+  "generated_at_utc": "2026-11-22T00:12:48Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
