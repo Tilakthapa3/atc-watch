@@ -1,39 +1,17 @@
 {
   "counts": {
-    "advisories": 4,
-    "delayed_airports": 8,
-    "findings": 3
+    "advisories": 3,
+    "delayed_airports": 2,
+    "findings": 0
   },
   "delayed_airports": [
-    "DJT",
-    "EWR",
-    "FLL",
-    "JFK",
     "LGA",
-    "SAN",
-    "SFO",
-    "SRQ"
+    "SAN"
   ],
-  "feed_updated": "Sun Nov 22 21:09:57 2026 GMT",
-  "findings": [
-    {
-      "evidence": "Ground Stop Programs: TEB low ceilings",
-      "rule": "ground_stop_keyword",
-      "severity": "critical"
-    },
-    {
-      "evidence": "delayed airports: DJT, EWR, FLL, JFK, LGA, SAN, SFO, SRQ",
-      "rule": "multi_airport_delays",
-      "severity": "elevated"
-    },
-    {
-      "evidence": "ARTCC centers mentioned: ZJX",
-      "rule": "center_named",
-      "severity": "elevated"
-    }
-  ],
-  "generated_at_ct": "2026-11-22T15:10:30.875717-06:00",
-  "generated_at_utc": "2026-11-22T21:10:30Z",
+  "feed_updated": "Mon Nov 23 01:46:12 2026 GMT",
+  "findings": [],
+  "generated_at_ct": "2026-11-22T19:46:36.299421-06:00",
+  "generated_at_utc": "2026-11-23T01:46:36Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -42,5 +20,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "GROUND_STOP_PATTERN"
+  "verdict": "OK"
 }
