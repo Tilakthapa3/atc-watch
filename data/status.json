@@ -1,17 +1,14 @@
 {
   "counts": {
-    "advisories": 3,
-    "delayed_airports": 2,
+    "advisories": 2,
+    "delayed_airports": 0,
     "findings": 0
   },
-  "delayed_airports": [
-    "LGA",
-    "SAN"
-  ],
-  "feed_updated": "Mon Nov 23 01:46:12 2026 GMT",
+  "delayed_airports": [],
+  "feed_updated": "Mon Nov 23 10:32:29 2026 GMT",
   "findings": [],
-  "generated_at_ct": "2026-11-22T19:46:36.299421-06:00",
-  "generated_at_utc": "2026-11-23T01:46:36Z",
+  "generated_at_ct": "2026-11-23T04:33:03.724625-06:00",
+  "generated_at_utc": "2026-11-23T10:33:03Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
