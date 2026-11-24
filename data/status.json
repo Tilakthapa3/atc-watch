@@ -1,16 +1,22 @@
 {
   "counts": {
-    "advisories": 3,
+    "advisories": 4,
     "delayed_airports": 1,
-    "findings": 0
+    "findings": 1
   },
   "delayed_airports": [
-    "SAN"
+    "LAS"
   ],
-  "feed_updated": "Mon Nov 23 22:15:12 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-23T16:15:15.836680-06:00",
-  "generated_at_utc": "2026-11-23T22:15:15Z",
+  "feed_updated": "Tue Nov 24 06:10:01 2026 GMT",
+  "findings": [
+    {
+      "evidence": "Ground Stop Programs: LAS STAFFING",
+      "rule": "ground_stop_keyword",
+      "severity": "critical"
+    }
+  ],
+  "generated_at_ct": "2026-11-24T00:10:09.193610-06:00",
+  "generated_at_utc": "2026-11-24T06:10:09Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -19,5 +25,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "GROUND_STOP_PATTERN"
 }
