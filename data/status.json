@@ -1,16 +1,22 @@
 {
   "counts": {
-    "advisories": 2,
+    "advisories": 3,
     "delayed_airports": 1,
-    "findings": 0
+    "findings": 1
   },
   "delayed_airports": [
-    "FLL"
+    "LAS"
   ],
-  "feed_updated": "Tue Nov 24 17:49:55 2026 GMT",
-  "findings": [],
-  "generated_at_ct": "2026-11-24T11:50:40.963114-06:00",
-  "generated_at_utc": "2026-11-24T17:50:40Z",
+  "feed_updated": "Wed Nov 25 02:07:45 2026 GMT",
+  "findings": [
+    {
+      "evidence": "Ground Stop Programs: SFO wind",
+      "rule": "ground_stop_keyword",
+      "severity": "critical"
+    }
+  ],
+  "generated_at_ct": "2026-11-24T20:07:58.014992-06:00",
+  "generated_at_utc": "2026-11-25T02:07:58Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -19,5 +25,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "OK"
+  "verdict": "GROUND_STOP_PATTERN"
 }
