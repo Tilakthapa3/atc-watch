@@ -1,23 +1,14 @@
 {
   "counts": {
-    "advisories": 3,
-    "delayed_airports": 2,
-    "findings": 1
+    "advisories": 1,
+    "delayed_airports": 0,
+    "findings": 0
   },
-  "delayed_airports": [
-    "FLL",
-    "MIA"
-  ],
-  "feed_updated": "Thu Nov 26 03:11:04 2026 GMT",
-  "findings": [
-    {
-      "evidence": "Ground Stop Programs: MIA disabled aircraft on the runway; SEA wind",
-      "rule": "ground_stop_keyword",
-      "severity": "critical"
-    }
-  ],
-  "generated_at_ct": "2026-11-25T21:11:34.712062-06:00",
-  "generated_at_utc": "2026-11-26T03:11:34Z",
+  "delayed_airports": [],
+  "feed_updated": "Thu Nov 26 12:45:24 2026 GMT",
+  "findings": [],
+  "generated_at_ct": "2026-11-26T06:46:18.633705-06:00",
+  "generated_at_utc": "2026-11-26T12:46:18Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
@@ -26,5 +17,5 @@
     "services.faa.gov/airport/status/LAX": false,
     "services.faa.gov/airport/status/ORD": false
   },
-  "verdict": "GROUND_STOP_PATTERN"
+  "verdict": "OK"
 }
