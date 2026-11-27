@@ -5,10 +5,10 @@
     "findings": 0
   },
   "delayed_airports": [],
-  "feed_updated": "Fri Nov 27 04:18:22 2026 GMT",
+  "feed_updated": "Fri Nov 27 14:11:54 2026 GMT",
   "findings": [],
-  "generated_at_ct": "2026-11-26T22:19:11.247686-06:00",
-  "generated_at_utc": "2026-11-27T04:19:11Z",
+  "generated_at_ct": "2026-11-27T08:12:00.062279-06:00",
+  "generated_at_utc": "2026-11-27T14:12:00Z",
   "sources": {
     "nasstatus.faa.gov/api/airport-status-information": true,
     "services.faa.gov/airport/status/ATL": false,
